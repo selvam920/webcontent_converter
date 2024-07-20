@@ -144,8 +144,6 @@ class ChromiumHelper {
     }
   }
 
-//TODO(xha): implement a more complete unzip
-//https://github.com/maxogden/extract-zip/blob/master/index.js
   static void simpleUnzip(String path, String targetPath) {
     var targetDirectory = Directory(targetPath);
     if (targetDirectory.existsSync()) {
