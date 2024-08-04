@@ -126,7 +126,6 @@ class WebcontentConverterPlugin : FlutterPlugin, MethodCallHandler, ActivityAwar
                 webView.layout(0, 0, dwidth, dheight)
                 webView.loadDataWithBaseURL(null, content, "text/HTML", "UTF-8", null)
                 webView.setInitialScale(1)
-                webView.setBackgroundColor(Color.WHITE);
                 webView.settings.javaScriptEnabled = true
                 webView.settings.useWideViewPort = true
                 webView.settings.javaScriptCanOpenWindowsAutomatically = true
