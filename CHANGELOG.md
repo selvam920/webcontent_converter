@@ -1,3 +1,10 @@
+## 0.0.8+4
+
+* Android: stop unconditionally applying the Kotlin Gradle Plugin so this
+  plugin doesn't conflict with Flutter's built-in Kotlin support (only
+  applies `kotlin-android` on AGP < 9); replaced `kotlinOptions` with the
+  `kotlin.compilerOptions {}` DSL.
+
 ## 0.0.8+3
 
 * customBrowserPath and chrome directory helper
